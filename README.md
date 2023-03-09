@@ -5,7 +5,7 @@ Risk bucketing involves categorizing borrowers based on their creditworthiness i
 I have implemented DBScan (Density-Based Spatial Clustering of Applications with Noise) clustering algorithm which  is a density-based clustering algorithm that is particularly useful for identifying clusters of arbitrary shape, size, and orientation. Unlike K-Means, DBScan can handle noise and outliers in the data, and it does not require the user to specify the number of clusters beforehand. Instead, it identifies clusters based on the density of the data points in the neighborhood. DBScan is also more robust to the choice of initial cluster centers since it does not depend on randomly initialized centroids.
 
 
-Notebook: 
+Notebook: https://github.com/sprasadhpy/Risk-Bucketed--POD-predictiomodels-1-/blob/main/Risk%20Bucketed%20-POD%20Prediction%20ML%20Models.ipynb
 
 
 ## Implemented ML Algorithms : 
