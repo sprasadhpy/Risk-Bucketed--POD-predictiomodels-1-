@@ -5,6 +5,9 @@ Risk bucketing involves categorizing borrowers based on their creditworthiness i
 I have implemented DBScan (Density-Based Spatial Clustering of Applications with Noise) clustering algorithm which  is a density-based clustering algorithm that is particularly useful for identifying clusters of arbitrary shape, size, and orientation. Unlike K-Means, DBScan can handle noise and outliers in the data, and it does not require the user to specify the number of clusters beforehand. Instead, it identifies clusters based on the density of the data points in the neighborhood. DBScan is also more robust to the choice of initial cluster centers since it does not depend on randomly initialized centroids.
 
 
+Notebook: 
+
+
 ## Implemented ML Algorithms : 
 
 ***Logistic regression*** is a commonly used classification algorithm in machine learning and data analysis.
