@@ -46,9 +46,12 @@ Again the implementation enables the user to perform Bayesian analysis, plot the
 
 *** KerasClassifier:****  KerasClassifier enables the use of pre-trained models like CNNs and RNNs for PD estimation, with flexibility in defining network architecture and optimization algorithms. Hyperparameters such as batch size, epoch, and dropout rate can be fine-tuned to specific data needs, while the sigmoid activation function is optimal for classification problems like PD estimation. Deep Learning with NNs provides a complex structure for better predictive performance by capturing the data dynamics.
 
+
 Best hyperparameters for first cluster in DL are {'batch_size': 10, 'dropout_rate': 0.2, 'epochs': 50}
 6/6 [==============================] - 0s 3ms/step
 DL_ROC_AUC is 0.5102
+
+
 Best parameters for second cluster in DL are {'batch_size': 100, 'dropout_rate': 0.4, 'epochs': 150}
 2/2 [==============================] - 0s 4ms/step
 DL_ROC_AUC is 0.6711
