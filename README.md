@@ -28,3 +28,9 @@ Again the implementation enables the user to perform Bayesian analysis, plot the
 ![image](https://user-images.githubusercontent.com/40602129/224086244-e40c1177-741a-44b8-aac4-bd4e15392738.png)
 
 
+***Random Forest :*** The random forest classifier can be used to model the probability of default, and it performs well with large numbers of samples. Using a halving search approach, we can determine the best combination of hyperparameters, including n_estimators, criterion, max_features, max_depth, and min_samples_split.
+
+![image](https://user-images.githubusercontent.com/40602129/224088175-c817cc0c-f5aa-4cf6-9cd8-c212b09a8df0.png)
+
+
+
