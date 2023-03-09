@@ -1,1 +1,3 @@
-# Risk-Bucketed--POD-predictiomodels-1-
+## Risk-Bucketed--POD-predictiomodels-ML
+
+Risk bucketing involves categorizing borrowers based on their creditworthiness into groups that exhibit similar characteristics. The underlying objective of this process is to obtain homogeneous groups or clusters so that credit risk can be estimated more accurately. Failing to distinguish between borrowers with different levels of risk could lead to inaccurate predictions since the model would not be able to capture the distinct characteristics of each group. By dividing borrowers into different groups based on their riskiness, risk bucketing allows for more accurate predictions. Various statistical methods can be used to accomplish this, but we will employ clustering techniques such as K-means and DBScan algorithms to produce homogeneous clusters.
