@@ -28,9 +28,32 @@ Again the implementation enables the user to perform Bayesian analysis, plot the
 ![image](https://user-images.githubusercontent.com/40602129/224086244-e40c1177-741a-44b8-aac4-bd4e15392738.png)
 
 
-***Random Forest :*** The random forest classifier can be used to model the probability of default, and it performs well with large numbers of samples. Using a halving search approach, we can determine the best combination of hyperparameters, including n_estimators, criterion, max_features, max_depth, and min_samples_split.
+***Random Forest :*** The random forest classifier can be used to model the probability of default, and it performs well with large numbers of samples. Using a halving search approach, we can determine the best combination of hyperparameters, including n_estimators, criterion, max_features, max_depth, and min_samples_split.Each cluster has its own set of optimal hyperparameters, and the proposed model is more intricate with a greater depth. Furthermore, the maximum number of features differs across the various clusters.
 
 ![image](https://user-images.githubusercontent.com/40602129/224088175-c817cc0c-f5aa-4cf6-9cd8-c212b09a8df0.png)
+
+
+***XGBoost :*** XGBoost is a boosting algorithm that combines multiple decision trees to create a strong ensemble model. The algorithm iteratively improves the performance of the model by adding new trees that focus on the most challenging examples. 
+
+![image](https://user-images.githubusercontent.com/40602129/224089428-23ffc14a-c4d3-4afe-a01d-68c4ee68cb6e.png)
+
+
+*** Neural Network:****  To set up the NN model, GridSearchCV optimizes the number of hidden layers, optimization technique, and learning rate. The MLP library controls several parameters, including the size of the hidden layer, the optimization technique (solver), and the learning rate. The optimized hyperparameters of the two clusters differ only in the number of neurons in the hidden layer. Cluster one has a larger number of neurons in the first hidden layer, while cluster two has a larger number in the second hidden layer.
+
+![image](https://user-images.githubusercontent.com/40602129/224089884-c63d9a20-72d1-4526-837b-56aaa72281d9.png)
+
+
+
+*** KerasClassifier:****  KerasClassifier enables the use of pre-trained models like CNNs and RNNs for PD estimation, with flexibility in defining network architecture and optimization algorithms. Hyperparameters such as batch size, epoch, and dropout rate can be fine-tuned to specific data needs, while the sigmoid activation function is optimal for classification problems like PD estimation. Deep Learning with NNs provides a complex structure for better predictive performance by capturing the data dynamics.
+
+Best hyperparameters for first cluster in DL are {'batch_size': 10, 'dropout_rate': 0.2, 'epochs': 50}
+6/6 [==============================] - 0s 3ms/step
+DL_ROC_AUC is 0.5102
+Best parameters for second cluster in DL are {'batch_size': 100, 'dropout_rate': 0.4, 'epochs': 150}
+2/2 [==============================] - 0s 4ms/step
+DL_ROC_AUC is 0.6711
+
+
 
 
 
