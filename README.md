@@ -60,8 +60,9 @@ Best parameters for second cluster in DL are {'batch_size': 100, 'dropout_rate':
 DL_ROC_AUC is 0.6711
 
 
-**GAN + TabNet*** 
+** GAN + TabNet *** 
 Source : https://www.sciencedirect.com/science/article/pii/S0957417423000441
+
 Source : https://assets.researchsquare.com/files/rs-724813/v1_covered.pdf?c=1631875380
 
 To predict credit default on the lending dataset, a combination of TabNet DL model and GAN was used. Due to the small number of defaults in the dataset, sample imbalance was observed, which affected the model's performance. To address this issue, a GAN network was employed to generate synthetic samples of bad users. The TabNet model was then trained on the original and synthetic samples to predict credit default.
